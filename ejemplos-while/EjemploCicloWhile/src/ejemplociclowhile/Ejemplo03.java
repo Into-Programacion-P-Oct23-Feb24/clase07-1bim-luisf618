@@ -25,7 +25,10 @@ public class Ejemplo03 {
         int contador = 1;
         int suma = 0;
         int valor_ingresado;
-        
+        /*
+        Pedir 5 valores por teclado para luego sumarlos y al final presentar el
+        valor de la suma
+        */
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
             valor_ingresado = entrada.nextInt();
